@@ -1,0 +1,8 @@
+Arch
+
+
+apt install lightdm sudo openbox zsh tmux terminator open-vm-tools-desktop obmenu lxappearance compton plank nitrogen firefox-esr pcmanfm 
+
+
+systemctl enable lightdm.service
+systemctl start lightdm.service
