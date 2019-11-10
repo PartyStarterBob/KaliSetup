@@ -8,7 +8,7 @@ Personal Kali Setup
 apt install openbox zsh git terminator tmux feh open-vm-tools-desktop obmenu lxappearance compton plank nitrogen firefox-esr pcmanfm net-tools curl locate qt4-qtconfig
 ```
 
-###openbox autostart config
+### openbox autostart config
 
 ```
 compton &
@@ -17,14 +17,14 @@ plank &
 
 into .config/openbox/autostart
 ```
-###Themes
+### Themes
 
 ```
 https://www.box-look.org/p/1313609/
 https://www.gnome-look.org/p/1315686/
 https://i.redd.it/2zoez8m51zk31.jpg
 ```
-###Applications
+### Applications
 
 ```
 apt install sublime-text burpsuite wfuzz python-pip chromium golang gobuster hydra hashcat wordlists powershell-empire seclists payloadsallthethings metasploit-framework sqlmap sslscan webshells ncat sparta smbclient smbmap filezilla wireshark termshark tcpdump rlwrap htop
@@ -45,7 +45,7 @@ https://www.tenable.com/downloads/nessus
 https://kali:8834/ 
 ```
 
-###Git clone
+### Git clone
 
 ```
 https://github.com/OWASP/Amass.git
@@ -69,7 +69,7 @@ https://github.com/Veil-Framework/Veil.git
 https://github.com/RhinoSecurityLabs/Swagger-EZ.git
 ```
 
-###Snap
+### Snap
 
 ```
 apt install snapd
@@ -78,7 +78,7 @@ export PATH=$PATH:/snap/bin >> .bashrc
 sudo snap install postman
 /var/lib/snapd/desktop/applications
 ```
-###Remove
+### Remove
 
 ```
 apt-get remove xfce4 xfce4-places-plugin xfce4-goodies xterm xfce4*
